@@ -1,0 +1,85 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+generator erd {
+  provider = "prisma-erd-generator"
+  includeRelationFromFields = true
+  output = "../ERD.pdf"
+  theme = "forest"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model boss {
+  id_boss        String        @id @db.Char(36)
+  username_boss  String        @db.Char(10)
+  password_boss  String        @db.Char(36)
+  token_boss     String?       @db.VarChar(255)
+  email_boss     String        @db.VarChar(100)
+  createdAt_boss DateTime?     @default(now()) @db.DateTime(0)
+  updatedAt_boss DateTime?     @default(now()) @db.DateTime(0)
+  owners         owners[]
+  permissions    permissions[]
+}
+
+model calls {
+  id_call        String          @id @db.Char(36)
+  ticket_call    Int
+  contact_call   String          @db.Char(35)
+  level_call     Int?            @default(0)
+  path_call      String          @db.VarChar(255)
+  createdAt_call DateTime?       @default(now()) @db.DateTime(0)
+  updatedAt_call DateTime?       @default(now()) @db.DateTime(0)
+  owner_id       String?         @db.Char(36)
+  owners         owners?         @relation(fields: [owner_id], references: [id_owner], onDelete: Restrict, onUpdate: Restrict, map: "fk_calls_owners")
+  relationships  relationships[]
+
+  @@index([owner_id], map: "fk_calls_owners")
+}
+
+model owners {
+  id_owner        String        @id @db.Char(36)
+  username_owner  String        @db.Char(10)
+  password_owner  String        @db.Char(36)
+  token_owner     String?       @db.VarChar(255)
+  email_owner     String        @db.VarChar(100)
+  createdAt_owner DateTime?     @default(now()) @db.DateTime(0)
+  updatedAt_owner DateTime?     @default(now()) @db.DateTime(0)
+  boss_id         String?       @db.Char(36)
+  calls           calls[]
+  boss            boss?         @relation(fields: [boss_id], references: [id_boss], onDelete: Restrict, onUpdate: Restrict, map: "fk_owners_boss")
+  permissions     permissions[]
+
+  @@index([boss_id], map: "fk_owners_boss")
+}
+
+model permissions {
+  id_permission     String   @id @db.Char(36)
+  insert_permission Boolean? @default(false)
+  edit_permission   Boolean? @default(false)
+  update_permission Boolean? @default(false)
+  remove_permission Boolean? @default(false)
+  boss_id           String?  @db.Char(36)
+  owner_id          String?  @db.Char(36)
+  boss              boss?    @relation(fields: [boss_id], references: [id_boss], onDelete: Restrict, onUpdate: Restrict, map: "fk_permissions_boss")
+  owners            owners?  @relation(fields: [owner_id], references: [id_owner], onDelete: Restrict, onUpdate: Restrict, map: "fk_permissions_owners")
+
+  @@index([boss_id], map: "fk_permissions_boss")
+  @@index([owner_id], map: "fk_permissions_owners")
+}
+
+model relationships {
+  id_relationship        String    @id @db.Char(36)
+  ticket_relationship    Int
+  contact_relationship   String    @db.Char(35)
+  createdAt_relationship DateTime? @default(now()) @db.DateTime(0)
+  updatedAt_relationship DateTime? @default(now()) @db.DateTime(0)
+  call_id                String?   @db.Char(36)
+  calls                  calls?    @relation(fields: [call_id], references: [id_call], onDelete: Restrict, onUpdate: Restrict, map: "fk_relationships_calls")
+
+  @@index([call_id], map: "fk_relationships_calls")
+}
