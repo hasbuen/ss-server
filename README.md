@@ -1,3 +1,12 @@
+
+
+<div>
+<h1>NestJS, PrismaJS, and GraphQL</h1>
+<p>
+NestJS, PrismaJS, and GraphQL are important tools that, when used together, can provide effective solutions for companies dealing with critical data.
+</p> <br/>
+
+<h2>NestJS</h2>
 <p align="center">
 
   <a href="http://nestjs.com/" target="blank">
@@ -5,6 +14,11 @@
   </a>
 
 </p>  
+<p>
+NestJS is a web application framework in Node.js that aims to provide a robust structure for creating scalable and efficient applications. It provides endpoint management and various functionalities to facilitate web application development.
+</p>
+
+<h2>PrismaJS</h2>
 <p align="center">
 
   <a href="https://www.prisma.io/" target="_blank">
@@ -12,6 +26,11 @@
   </a>
 
 </p>  
+<p>
+PrismaJS is an Object-Relational Mapping (ORM) for Node.js that facilitates communication between an application and a MySQL database. It provides an easy-to-use Application Programming Interface (API) and helps ensure data security. With PrismaJS, it is possible to securely and efficiently execute database operations.
+</p>
+
+<h2>GraphQL</h2>
 <p align="center">
 
 <a href="https://graphql.org/" target="_blank">
@@ -19,23 +38,6 @@
 </a>
 
 </p>
-<div>
-<h1>NestJS, PrismaJS, and GraphQL</h1><br/
-<p>
-NestJS, PrismaJS, and GraphQL are important tools that, when used together, can provide effective solutions for companies dealing with critical data.
-</p> <br/>
-
-<h2>NestJS</h2> <br/>
-<p>
-NestJS is a web application framework in Node.js that aims to provide a robust structure for creating scalable and efficient applications. It provides endpoint management and various functionalities to facilitate web application development.
-</p>
-
-<h2>PrismaJS</h2> <br/>
-<p>
-PrismaJS is an Object-Relational Mapping (ORM) for Node.js that facilitates communication between an application and a MySQL database. It provides an easy-to-use Application Programming Interface (API) and helps ensure data security. With PrismaJS, it is possible to securely and efficiently execute database operations.
-</p>
-
-<h2>GraphQL</h2> <br/>
 <p>
 GraphQL is a query language for data and a runtime for APIs, which offers clients the flexibility to request only the necessary and customized data, instead of receiving a fixed set of data. It allows for the creation of flexible and scalable APIs and provides a robust solution for companies that need to work with large amounts of critical data.
 </p><br/>
