@@ -62,6 +62,10 @@ By combining these three tools, it is possible to create scalable and efficient 
 
 <strong>Mapped.</strong><br/>
 
+<p align="center">
+<img src="./ERD.svg" alt="Entity relationship diagram"/>
+</p>
+
 | root.                  |                                                                                                      |
 | ---------------------- | ---------------------------------------------------------------------------------------------------- |
 | app.module.ts          |                                                                                                      |

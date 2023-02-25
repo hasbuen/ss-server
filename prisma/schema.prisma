@@ -5,8 +5,8 @@ generator client {
 generator erd {
   provider = "prisma-erd-generator"
   includeRelationFromFields = true
-  output = "../ERD.pdf"
-  theme = "forest"
+  output = "../ERD.svg"
+  theme = "dark"
 }
 
 datasource db {
