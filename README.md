@@ -116,6 +116,6 @@ $ yarn run test:cov
 ```
 ## Licenses
 
-<p>Nest is [MIT licensed](LICENSE).</p>
-<p>Prisma is [MIT licensed](LICENSE).</p>
-<p>GraphQL is [OSL licensed](LICENSE).</p>
+Nest is [MIT licensed](LICENSE).</br>
+Prisma is [MIT licensed](LICENSE).</br>
+GraphQL is [OSL licensed](LICENSE).
