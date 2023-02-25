@@ -118,4 +118,4 @@ $ yarn run test:cov
 
 Nest is [MIT licensed](LICENSE).</br>
 Prisma is [MIT licensed](LICENSE).</br>
-GraphQL is [OSL licensed](LICENSE).
+GraphQL is [Open Software License](LICENSE).</br>
