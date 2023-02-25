@@ -60,12 +60,13 @@ By combining these three tools, it is possible to create scalable and efficient 
 <p>In summary, the server created with NestJS, PrismaJS, and GraphQL is an efficient and scalable solution for managing call audio storage in a helpdesk support team. With the defined project hierarchy, only the Boss can make changes and removals, while other analysts can download and store new audios. The use of these tools allows for the creation of a secure and high-performance application that meets the organization's needs.</p>
 
 
-<strong>Mapped.</strong><br/>
 
 <p align="center">
+<strong>Entity relationship diagram.</strong>
 <img src="./ERD.svg" alt="Entity relationship diagram"/>
 </p>
 
+<strong>Mapped project.</strong>
 | root.                  |                                                                                                      |
 | ---------------------- | ---------------------------------------------------------------------------------------------------- |
 | app.module.ts          |                                                                                                      |
