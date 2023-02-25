@@ -19,10 +19,15 @@
 </a>
 
 </p>
+<div>
+  <p>NestJS, PrismaJS, and GraphQL are important tools that, when used together, can provide effective solutions for companies dealing with critical data. NestJS is a web application framework in Node.js that aims to provide a robust structure for creating scalable and efficient applications. It provides endpoint management and various functionalities to facilitate web application development.</p>
+  <p>PrismaJS, in turn, is an Object-Relational Mapping (ORM) for Node.js that facilitates communication between an application and a MySQL database. It provides an easy-to-use Application Programming Interface (API) and helps ensure data security. With PrismaJS, it is possible to securely and efficiently execute database operations.</p>
+  <p>GraphQL, on the other hand, is a query language for data and a runtime for APIs, which offers clients the flexibility to request only the necessary and customized data, instead of receiving a fixed set of data. It allows for the creation of flexible and scalable APIs and provides a robust solution for companies that need to work with large amounts of critical data.</p>
+  <p>By combining these three tools, it is possible to create scalable and efficient web applications with security and flexibility to handle large amounts of critical data. This combination allows companies to develop high-performance and secure applications that meet the needs of their customers while keeping their data protected.</p>
+</div>
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 <strong>Mapped.</strong><br/>
 
