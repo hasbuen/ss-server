@@ -28,66 +28,26 @@
 
 <strong>Mapped.</strong><br/>
 
-<p>C:.</p>
-<p>│   app.module.ts</p>
-<p>│   main.ts</p>
-<p>│</p>
-<p>├───@generated</p>
-<p>│   └───prisma-nestjs-graphql</p>
-<p>│       ├───boss</p>
-<p>│       │       boss.model.ts</p>
-<p>│       │       create-oneboss.args.ts</p>
-<p>│       │</p>
-<p>│       ├───call</p>
-<p>│       │       call.model.ts</p>
-<p>│       │       create-onecall.args.ts</p>
-<p>│       │</p>
-<p>│       ├───owner</p>
-<p>│       │       create-oneowner.args.ts</p>
-<p>│       │       owner.model.ts</p>
-<p>│       │</p>
-<p>│       ├───Permission</p>
-<p>│       │       create-onepermission.args.ts</p>
-<p>│       │       permission.model.ts</p>
-<p>│       │</p>
-<p>│       └───relationship</p>
-<p>│               create-onerelationship.args.ts</p>
-<p>│               relationship.model.ts</p>
-<p>│</p>
-<p>└───modules</p>
-<p>    ├───boss</p>
-<p>    │       boss.dto.ts</p>
-<p>    │       boss.module.ts</p>
-<p>    │       boss.resolver.ts</p>
-<p>    │       boss.service.ts</p>
-<p>    │</p>
-<p>    ├───call</p>
-<p>    │       call.dto.ts</p>
-<p>    │       call.module.ts</p>
-<p>    │       call.resolver.ts</p>
-<p>    │       call.service.ts</p>
-<p>    │</p>
-<p>    ├───jwt</p>
-<p>    │       jwt.module.ts</p>
-<p>    │       jwt.service.ts</p>
-<p>    │</p>
-<p>    ├───owner</p>
-<p>    │       owner.dto.ts</p>
-<p>    │       owner.module.ts</p>
-<p>    │       owner.resolver.ts</p>
-<p>    │       owner.service.ts</p>
-<p>    │</p>
-<p>    ├───permission</p>
-<p>    │       permission.dto.ts</p>
-<p>    │       permission.module.ts</p>
-<p>    │       permission.resolver.ts</p>
-<p>    │       permission.service.ts</p>
-<p>    │</p>
-<p>    └───relationship</p>
-<p>            relationship.dto.ts</p>
-<p>            relationship.module.ts</p>
-<p>            relationship.resolver.ts</p>
-<p>            relationship.service.ts</p>
+| C:.             |              |
+|----------------|--------------|
+| app.module.ts  |              |
+| main.ts        |              |
+|                |              |
+| **@generated** |              |
+| prisma-nestjs-graphql/ |       |
+| ├───boss       | boss.model.ts<br>create-oneboss.args.ts |
+| ├───call       | call.model.ts<br>create-onecall.args.ts |
+| ├───owner      | owner.model.ts<br>create-oneowner.args.ts |
+| ├───Permission | permission.model.ts<br>create-onepermission.args.ts |
+| └───relationship | relationship.model.ts<br>create-onerelationship.args.ts |
+|                |              |
+| **modules**    |              |
+| ├───boss       | boss.dto.ts<br>boss.module.ts<br>boss.resolver.ts<br>boss.service.ts |
+| ├───call       | call.dto.ts<br>call.module.ts<br>call.resolver.ts<br>call.service.ts |
+| ├───jwt        | jwt.module.ts<br>jwt.service.ts |
+| ├───owner      | owner.dto.ts<br>owner.module.ts<br>owner.resolver.ts<br>owner.service.ts |
+| ├───permission | permission.dto.ts<br>permission.module.ts<br>permission.resolver.ts<br>permission.service.ts |
+| └───relationship | relationship.dto.ts<br>relationship.module.ts<br>relationship.resolver.ts<br>relationship.service.ts |
 
 
 ## Installation
