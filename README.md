@@ -39,7 +39,7 @@
 | call       | call.model.ts<br>create-onecall.args.ts |
 | owner      | owner.model.ts<br>create-oneowner.args.ts |
 | Permission | permission.model.ts<br>create-onepermission.args.ts |
-| └───relationship | relationship.model.ts<br>create-onerelationship.args.ts |
+| relationship | relationship.model.ts<br>create-onerelationship.args.ts |
 |                |              |
 | **modules**    |              |
 | boss       | boss.dto.ts<br>boss.module.ts<br>boss.resolver.ts<br>boss.service.ts |
@@ -47,7 +47,7 @@
 | jwt        | jwt.module.ts<br>jwt.service.ts |
 | owner      | owner.dto.ts<br>owner.module.ts<br>owner.resolver.ts<br>owner.service.ts |
 | permission | permission.dto.ts<br>permission.module.ts<br>permission.resolver.ts<br>permission.service.ts |
-| └───relationship | relationship.dto.ts<br>relationship.module.ts<br>relationship.resolver.ts<br>relationship.service.ts |
+| relationship | relationship.dto.ts<br>relationship.module.ts<br>relationship.resolver.ts<br>relationship.service.ts |
 
 
 ## Installation
