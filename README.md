@@ -1,12 +1,18 @@
-<p align="justify">
-<p>
+<p align="center">
+
   <a href="http://nestjs.com/" target="blank">
   <img src="https://nestjs.com/img/logo-small.svg" width="100" height="100" alt="Nest Logo" />
   </a>
-  
+
+</p>  
+<p align="center">
+
   <a href="https://www.prisma.io/" target="_blank">
   <img src="https://prismalens.vercel.app/header/logo-dark.svg" alt="Prisma Logo" width="200"  height="100"/>
   </a>
+
+</p>  
+<p align="center">
 
 <a href="https://graphql.org/" target="_blank">
 <img src="https://graphql.org/img/logo.svg" alt="GraphQL Logo" width="100"  height="100"/>
