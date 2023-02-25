@@ -26,6 +26,67 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+C:.
+│   app.module.ts
+│   main.ts
+│
+├───@generated
+│   └───prisma-nestjs-graphql
+│       ├───boss
+│       │       boss.model.ts
+│       │       create-oneboss.args.ts
+│       │
+│       ├───call
+│       │       call.model.ts
+│       │       create-onecall.args.ts
+│       │
+│       ├───owner
+│       │       create-oneowner.args.ts
+│       │       owner.model.ts
+│       │
+│       ├───Permission
+│       │       create-onepermission.args.ts
+│       │       permission.model.ts
+│       │
+│       └───relationship
+│               create-onerelationship.args.ts
+│               relationship.model.ts
+│
+└───modules
+    ├───boss
+    │       boss.dto.ts
+    │       boss.module.ts
+    │       boss.resolver.ts
+    │       boss.service.ts
+    │
+    ├───call
+    │       call.dto.ts
+    │       call.module.ts
+    │       call.resolver.ts
+    │       call.service.ts
+    │
+    ├───jwt
+    │       jwt.module.ts
+    │       jwt.service.ts
+    │
+    ├───owner
+    │       owner.dto.ts
+    │       owner.module.ts
+    │       owner.resolver.ts
+    │       owner.service.ts
+    │
+    ├───permission
+    │       permission.dto.ts
+    │       permission.module.ts
+    │       permission.resolver.ts
+    │       permission.service.ts
+    │
+    └───relationship
+            relationship.dto.ts
+            relationship.module.ts
+            relationship.resolver.ts
+            relationship.service.ts
+            
 ## Installation
 
 ```bash
