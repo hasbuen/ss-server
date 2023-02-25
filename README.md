@@ -28,25 +28,25 @@
 
 <strong>Mapped.</strong><br/>
 
-| C:.             |              |
+| root.          |              |
 |----------------|--------------|
 | app.module.ts  |              |
 | main.ts        |              |
 |                |              |
 | **@generated** |              |
 | prisma-nestjs-graphql/ |       |
-| ├───boss       | boss.model.ts<br>create-oneboss.args.ts |
-| ├───call       | call.model.ts<br>create-onecall.args.ts |
-| ├───owner      | owner.model.ts<br>create-oneowner.args.ts |
-| ├───Permission | permission.model.ts<br>create-onepermission.args.ts |
+| boss       | boss.model.ts<br>create-oneboss.args.ts |
+| call       | call.model.ts<br>create-onecall.args.ts |
+| owner      | owner.model.ts<br>create-oneowner.args.ts |
+| Permission | permission.model.ts<br>create-onepermission.args.ts |
 | └───relationship | relationship.model.ts<br>create-onerelationship.args.ts |
 |                |              |
 | **modules**    |              |
-| ├───boss       | boss.dto.ts<br>boss.module.ts<br>boss.resolver.ts<br>boss.service.ts |
-| ├───call       | call.dto.ts<br>call.module.ts<br>call.resolver.ts<br>call.service.ts |
-| ├───jwt        | jwt.module.ts<br>jwt.service.ts |
-| ├───owner      | owner.dto.ts<br>owner.module.ts<br>owner.resolver.ts<br>owner.service.ts |
-| ├───permission | permission.dto.ts<br>permission.module.ts<br>permission.resolver.ts<br>permission.service.ts |
+| boss       | boss.dto.ts<br>boss.module.ts<br>boss.resolver.ts<br>boss.service.ts |
+| call       | call.dto.ts<br>call.module.ts<br>call.resolver.ts<br>call.service.ts |
+| jwt        | jwt.module.ts<br>jwt.service.ts |
+| owner      | owner.dto.ts<br>owner.module.ts<br>owner.resolver.ts<br>owner.service.ts |
+| permission | permission.dto.ts<br>permission.module.ts<br>permission.resolver.ts<br>permission.service.ts |
 | └───relationship | relationship.dto.ts<br>relationship.module.ts<br>relationship.resolver.ts<br>relationship.service.ts |
 
 
