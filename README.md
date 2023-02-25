@@ -114,8 +114,8 @@ $ yarn run test:e2e
 # test coverage
 $ yarn run test:cov
 ```
-## License
+## Licenses
 
-Nest is [MIT licensed](LICENSE).
-Prisma is [MIT licensed](LICENSE).
-GraphQL is [OSL licensed](LICENSE).
+<p>Nest is [MIT licensed](LICENSE).</p>
+<p>Prisma is [MIT licensed](LICENSE).</p>
+<p>GraphQL is [OSL licensed](LICENSE).</p>
