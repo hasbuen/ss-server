@@ -49,6 +49,17 @@ By combining these three tools, it is possible to create scalable and efficient 
 
 ## Description
 
+<p>The server created with NestJS, PrismaJS, and GraphQL aims to manage the storage of call audios individually per analyst in a helpdesk support team within an organization. This application was developed with a project hierarchy that allows only the Boss (team leader) to make changes and removals to the audios, while other analysts can download the audio and store new files.</p>
+
+<p>NestJS provides all the necessary structure to create a scalable and efficient web application. It manages endpoints and provides various functionalities to facilitate web application development. PrismaJS, in turn, facilitates communication between the application and the MySQL database. It provides an easy-to-use API and helps ensure data security by securely and efficiently executing database operations.</p>
+
+<p>GraphQL is used to receive user requests and customize responses with the necessary data, offering a robust solution for companies that need to work with large amounts of critical data. This allows the application to create flexible and scalable APIs, ensuring high performance and security for manipulating large amounts of data.</p>
+
+<p>The project is organized into modules that represent the main entities of the application, such as Boss, Call, Owner, Permission, and Relationship. Each module has a Data Transfer Object (DTO), a resolver, and a service, which are responsible for receiving requests, processing information, and providing responses according to defined business rules.</p>
+
+<p>In summary, the server created with NestJS, PrismaJS, and GraphQL is an efficient and scalable solution for managing call audio storage in a helpdesk support team. With the defined project hierarchy, only the Boss can make changes and removals, while other analysts can download and store new audios. The use of these tools allows for the creation of a secure and high-performance application that meets the organization's needs.</p>
+
+
 <strong>Mapped.</strong><br/>
 
 | root.                  |                                                                                                      |
