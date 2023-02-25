@@ -26,67 +26,70 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-C:.
-│   app.module.ts
-│   main.ts
-│
-├───@generated
-│   └───prisma-nestjs-graphql
-│       ├───boss
-│       │       boss.model.ts
-│       │       create-oneboss.args.ts
-│       │
-│       ├───call
-│       │       call.model.ts
-│       │       create-onecall.args.ts
-│       │
-│       ├───owner
-│       │       create-oneowner.args.ts
-│       │       owner.model.ts
-│       │
-│       ├───Permission
-│       │       create-onepermission.args.ts
-│       │       permission.model.ts
-│       │
-│       └───relationship
-│               create-onerelationship.args.ts
-│               relationship.model.ts
-│
-└───modules
-    ├───boss
-    │       boss.dto.ts
-    │       boss.module.ts
-    │       boss.resolver.ts
-    │       boss.service.ts
-    │
-    ├───call
-    │       call.dto.ts
-    │       call.module.ts
-    │       call.resolver.ts
-    │       call.service.ts
-    │
-    ├───jwt
-    │       jwt.module.ts
-    │       jwt.service.ts
-    │
-    ├───owner
-    │       owner.dto.ts
-    │       owner.module.ts
-    │       owner.resolver.ts
-    │       owner.service.ts
-    │
-    ├───permission
-    │       permission.dto.ts
-    │       permission.module.ts
-    │       permission.resolver.ts
-    │       permission.service.ts
-    │
-    └───relationship
-            relationship.dto.ts
-            relationship.module.ts
-            relationship.resolver.ts
-            relationship.service.ts
-            
+<strong>Mapped.</strong><br/>
+
+<p>C:.</p>
+<p>│   app.module.ts</p>
+<p>│   main.ts</p>
+<p>│</p>
+<p>├───@generated</p>
+<p>│   └───prisma-nestjs-graphql</p>
+<p>│       ├───boss</p>
+<p>│       │       boss.model.ts</p>
+<p>│       │       create-oneboss.args.ts</p>
+<p>│       │</p>
+<p>│       ├───call</p>
+<p>│       │       call.model.ts</p>
+<p>│       │       create-onecall.args.ts</p>
+<p>│       │</p>
+<p>│       ├───owner</p>
+<p>│       │       create-oneowner.args.ts</p>
+<p>│       │       owner.model.ts</p>
+<p>│       │</p>
+<p>│       ├───Permission</p>
+<p>│       │       create-onepermission.args.ts</p>
+<p>│       │       permission.model.ts</p>
+<p>│       │</p>
+<p>│       └───relationship</p>
+<p>│               create-onerelationship.args.ts</p>
+<p>│               relationship.model.ts</p>
+<p>│</p>
+<p>└───modules</p>
+<p>    ├───boss</p>
+<p>    │       boss.dto.ts</p>
+<p>    │       boss.module.ts</p>
+<p>    │       boss.resolver.ts</p>
+<p>    │       boss.service.ts</p>
+<p>    │</p>
+<p>    ├───call</p>
+<p>    │       call.dto.ts</p>
+<p>    │       call.module.ts</p>
+<p>    │       call.resolver.ts</p>
+<p>    │       call.service.ts</p>
+<p>    │</p>
+<p>    ├───jwt</p>
+<p>    │       jwt.module.ts</p>
+<p>    │       jwt.service.ts</p>
+<p>    │</p>
+<p>    ├───owner</p>
+<p>    │       owner.dto.ts</p>
+<p>    │       owner.module.ts</p>
+<p>    │       owner.resolver.ts</p>
+<p>    │       owner.service.ts</p>
+<p>    │</p>
+<p>    ├───permission</p>
+<p>    │       permission.dto.ts</p>
+<p>    │       permission.module.ts</p>
+<p>    │       permission.resolver.ts</p>
+<p>    │       permission.service.ts</p>
+<p>    │</p>
+<p>    └───relationship</p>
+<p>            relationship.dto.ts</p>
+<p>            relationship.module.ts</p>
+<p>            relationship.resolver.ts</p>
+<p>            relationship.service.ts</p>
+
+
 ## Installation
 
 ```bash
