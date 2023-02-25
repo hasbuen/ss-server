@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" height="40" alt="Nest Logo" /></a>
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="50" height="100" alt="Nest Logo" /></a>
   
-  <a href="https://www.prisma.io/" target="_blank"><img src="https://www.prisma.io/assets/prisma-logo-black.png" alt="Prisma Logo" width="200"  height="40"/></a>
+  <a href="https://www.prisma.io/" target="_blank"><img src="https://www.prisma.io/assets/prisma-logo-black.png" alt="Prisma Logo" width="50"  height="100"/></a>
 
-<a href="https://graphql.org/" target="_blank"><img src="https://graphql.org/img/logo.svg" alt="GraphQL Logo" width="200"  height="40"/></a>
+<a href="https://graphql.org/" target="_blank"><img src="https://graphql.org/img/logo.svg" alt="GraphQL Logo" width="50"  height="100"/></a>
 
 </p>
 
