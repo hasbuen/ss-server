@@ -7,6 +7,7 @@ import { Boss } from 'src/@generated/prisma-nestjs-graphql/boss/boss.model';
 import { BossDTO } from './boss.dto';
 import { JwtService } from '../jwt/jwt.service';
 
+
 @Injectable()
 export class BossService {
   constructor(private prisma: PrismaService, private jwtService: JwtService) {}
