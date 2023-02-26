@@ -1,7 +1,7 @@
 // O código importa a biblioteca 'uuid', que é utilizada para gerar UUIDs, e importa a biblioteca 'crypto', que é utilizada para gerar hashes de senhas. Também importa algumas classes do NestJS e de outros módulos do projeto.
 import { v4 as uuidv4 } from 'uuid';
 import * as crypto from 'crypto';
-import { Injectable, UnauthorizedException } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { PrismaService } from 'prisma/prisma.service';
 import { Boss } from 'src/@generated/prisma-nestjs-graphql/boss/boss.model';
 import { BossDTO } from './boss.dto';
